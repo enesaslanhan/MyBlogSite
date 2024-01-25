@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Navi from './Navi';
+import exampleImage from './1.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <Navi></Navi>
+      <div className="resim1"><img src={exampleImage}></img></div>
+      <div className='profilİnformation'>
+        <p>Ben Enes Aslanhan Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Konya Teknik Üniversitesin'de eğitim almaktayım.
+           
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }

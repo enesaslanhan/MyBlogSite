@@ -1,0 +1,19 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    height: 13vh;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: auto;
+    margin-top: 5.5vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
