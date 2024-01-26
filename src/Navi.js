@@ -5,7 +5,7 @@ export default class Navi extends Component {
     return (
       <div>   
         <nav className='navbar'>
-        <ul>
+        <ul className='navbar-items'>
             <li><a href="#">LOGO</a></li>
             <li></li>
             <li><a href="#">Hakkımızda</a></li>

@@ -1,12 +1,24 @@
 *{
     margin: 0;
+    background-color: white;
 }
 .resim1 img{
-    width: 600px;
+    width: 500px;
     border-radius: .7rem;
     border: 1px solid;
 }
 .resim1{
     text-align: center;
     margin-top: 7%;
+}
+ul{
+    display: block;
+}
+.profilİnformation{
+    text-align: center;
+    margin-top: 5%;
+}
+.information{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
 }
