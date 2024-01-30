@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+.resim1 img{
+    width: 500px;
+    border-radius: .7rem;
+    border: 2px solid white;
+}
+.resim1{
+    text-align: center;
+    margin-top: 7%;
+}
+ul{
+    display: block;
+}
+.profilİnformation{
+    text-align: center;
+    margin-top: 5%;
+}
+.information{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: rgb(226, 188, 117);
+}
+.title{
+    text-align: center;
+    margin:3% 0 ;
+    font-family: sans-serif;
+    color:white;
+}
+.experience{
+    text-align: center;
+    margin: 5% 0;
+}
+.context{
+    background-image: '../3.jpg';
+}
