@@ -1,5 +1,7 @@
 *{
-    margin: 0;
+    margin: 0;   
+}
+.context{
     background-color: black;
 }
 .resim1 img{
@@ -9,7 +11,7 @@
 }
 .resim1{
     text-align: center;
-    margin-top: 7%;
+    padding-top: 7%;
 }
 ul{
     display: block;
@@ -31,8 +33,17 @@ ul{
 }
 .experience{
     text-align: center;
-    margin: 5% 0;
+    padding: 5% 0;
 }
-.context{
-    background-image: '../3.jpg';
+.pp{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.pp img{
+    border-radius: 50%;
+}
+.pp img:hover{
+    border-radius: 30%;
+    border: 2px solid white;
+    transition: 0.5s;
 }

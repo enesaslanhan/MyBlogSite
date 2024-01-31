@@ -22,6 +22,10 @@ export default class Container extends Component {
             Toplam 2 Ay
           </p>
         </div>
+        <div className='pp'>
+            <img src='https://avatars.githubusercontent.com/u/95915058?v=4'></img>
+        </div>
+        
         </div>
     )
   }

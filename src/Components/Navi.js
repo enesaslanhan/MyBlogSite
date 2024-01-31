@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/Navi.css'
-
+import { Link } from 'react-router-dom'
 export default class Navi extends Component {
   render() {
     return (
@@ -9,15 +9,9 @@ export default class Navi extends Component {
         <ul className='navbar-items'>
             <li><a href="#">LOGO</a></li>
             <li></li>
-            <li><a href="#">Hakkımızda</a></li>
+            <li><a >Hakkımızda</a></li>
             <li>
-              <a href="#">Hizmetler</a>
-             {/*  <ul>
-                <li><a href="#">Web Tasarım</a></li>
-                <li><a href="#">Grafik Tasarım</a></li>
-                <li><a href="#">SEO</a></li>
-            </ul>
-            */}
+              <Link to='/activities'>Hizmetler</Link>
             </li>
             <li><a href="#">İletişim</a></li>
         </ul>
