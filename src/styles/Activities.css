@@ -1,0 +1,26 @@
+.A_Container{
+    margin: 0;
+    padding: 0;
+}
+.A_img{
+    width: 500px;
+    border-radius: .7rem;
+    border: 2px solid white;
+    margin-left: 18%;
+}
+.A_Column{
+    display: flex;
+    background-color: black;
+}
+.A_Box, .B_Box{
+    width: 50%;
+    padding-top: 5%;
+}
+.A_Box{
+    border-right: 5px solid white;
+}
+.A_Box_İnformation{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
