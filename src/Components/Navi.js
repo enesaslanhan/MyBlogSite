@@ -7,13 +7,13 @@ export default class Navi extends Component {
       <div>   
         <nav className='navbar'>
         <ul className='navbar-items'>
-            <li><a href="#">LOGO</a></li>
+            <li><a href="#" className='a_name'>Enes Aslanhan</a></li>
             <li></li>
-            <li><a >Hakkımızda</a></li>
+            <li><Link to='/'>Hakkımızda</Link></li>
             <li>
               <Link to='/activities'>Hizmetler</Link>
             </li>
-            <li><a href="#">İletişim</a></li>
+            <li><Link to='/communication'>İletişim</Link></li>
         </ul>
         </nav>
       </div>

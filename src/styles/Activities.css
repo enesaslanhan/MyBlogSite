@@ -36,8 +36,12 @@
     font-size: 1.2rem;
 }
 .link{
-    
+    font-family: cursive;
     background-color: black;
     color:red;
-    
+}
+.link:hover{
+    transition: 1s;
+    letter-spacing: 5px;
+    color: blue;
 }

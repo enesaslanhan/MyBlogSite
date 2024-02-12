@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+.c_image{
+    text-align: center;
+    width: 600px;
+    border-radius: .7rem;
+    border: solid 2px white;
+}
+.c_box{
+    text-align: center;
+    padding: 5%;
+}
+.c_links{
+    flex-direction: column;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10%;
+    width: 35%;
+    margin-left: 32.5%;
+}
+.c_links a{
+    color: black;
+    font-family:cursive ;
+    background-color: black;
+    padding: 2%;
+    background-color: rgb(34, 248, 6);
+    margin-top: 10%;
+    border-radius: 0.7rem;
+}
+.c_title{
+    color: white;
+    font-family: cursive;
+}
+.c_links a:hover{
+    background-color: blue;
+    color: white;
+    transition: .6s;
+    letter-spacing: 1rem;
+}
